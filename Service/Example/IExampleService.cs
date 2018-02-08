@@ -17,8 +17,7 @@
         [OperationContract]
         [WebGet(
             RequestFormat = WebMessageFormat.Json,
-            ResponseFormat = WebMessageFormat.Json,
-            BodyStyle = WebMessageBodyStyle.Wrapped)]
+            ResponseFormat = WebMessageFormat.Json)]
         string Hello(string name);
     }
 }

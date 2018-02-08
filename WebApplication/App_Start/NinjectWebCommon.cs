@@ -51,7 +51,7 @@
         }
 
         /// <summary>
-        /// Load your modules or register your services here!
+        /// Loads the modules into the kernel.
         /// </summary>
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)

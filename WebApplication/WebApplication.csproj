@@ -126,6 +126,10 @@
       <Project>{3041f601-988a-4177-a91e-b174e3f63aab}</Project>
       <Name>Business</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{98666c03-fc1f-405e-90ff-390698d54bac}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{F02E99EA-0A57-49D6-99B0-5EA2F6ADA8E0}</Project>
       <Name>Model</Name>
